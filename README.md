@@ -1,1 +1,1 @@
-Meu primeiro commit certo, estou muito feliz
+Commit relativo ao exercício do dia 8/2
