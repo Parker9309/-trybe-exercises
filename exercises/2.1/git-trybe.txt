@@ -1,8 +1,7 @@
 O que eu vou aprender na Trybe:
 
-- Unix
-- Bash
-- Git
-HTNL
-CSS
-SQL
+trybe-skills-updates
+- HTML
+- CSS
+- SQL
+ master
