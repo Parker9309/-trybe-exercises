@@ -2,14 +2,11 @@ h1, p {
   text-align: center;
 }
 
+
 li:hover {
   background-color: cornflowerblue;
 }
 
-li:active {
+ol:active {
   font-family: Arial;
-}
-
-ul, ol {
-  list-style-type: armenian;
 }

@@ -10,6 +10,4 @@ li:active {
   font-family: Arial;
 }
 
-ul, ol {
-  list-style-type: armenian;
-}
+ul, ol {}
