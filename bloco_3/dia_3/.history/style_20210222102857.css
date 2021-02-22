@@ -6,8 +6,8 @@ ol, li:nth-of-type(2n) {
   color: green;
 }
 
-li em {
-  font-weight: bold;
+li, em {
+  font-weight: bolder;
 }
 
 li {
@@ -27,29 +27,4 @@ h1 {
 
 h1, h2, h3 {
   color: red;
-}
-
-
-li.blue {
-  color: blue;
-}
-
-.java {
-  background-color: pink;
-}
-
-.stack:hover {
-  background-color: orange;
-}
-
-.w3s:hover {
-  background-color: green;
-}
-
-.mdn:hover {
-  background-color: black;
-}
-
-.devd:hover{
-  background-color: yellow;
 }
