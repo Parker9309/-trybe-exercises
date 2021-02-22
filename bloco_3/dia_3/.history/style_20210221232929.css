@@ -3,12 +3,12 @@ h3 {
 }
 
 h3:nth-of-type(2n+1) {
-  font-style: italic;
+  font-family;
 }
 
 div:hover {
-  width: 700px;
-  border-style: solid
+  border: 10px;
+  color: aquamarine;
 }
 
 div:nth-of-type(1) {

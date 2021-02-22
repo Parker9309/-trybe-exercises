@@ -1,14 +1,10 @@
 h3 {
-  background-color: coral;
-}
-
-h3:nth-of-type(2n+1) {
-  font-style: italic;
+  
 }
 
 div:hover {
-  width: 700px;
-  border-style: solid
+  border: 10px;
+  color: aquamarine;
 }
 
 div:nth-of-type(1) {
@@ -21,7 +17,6 @@ div:nth-of-type(2) {
 }
 
 div:nth-of-type(3){
-  font-size: 2em;
   color: blueviolet;
 }
 

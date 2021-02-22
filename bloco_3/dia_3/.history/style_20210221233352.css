@@ -7,7 +7,7 @@ h3:nth-of-type(2n+1) {
 }
 
 div:hover {
-  width: 700px;
+  width: px;
   border-style: solid
 }
 
