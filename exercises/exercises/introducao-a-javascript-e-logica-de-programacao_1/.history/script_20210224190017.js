@@ -1,4 +1,4 @@
-let Chess = 'Bispo'
+let Chess = 'Bispo
 
 switch (Chess) {
     case 'Rainha':

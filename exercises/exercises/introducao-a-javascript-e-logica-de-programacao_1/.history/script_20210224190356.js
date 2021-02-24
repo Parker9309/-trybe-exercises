@@ -1,6 +1,6 @@
 let Chess = 'Bispo'
 
-switch (Chess) {
+switch (Chess ) {
     case 'Rainha':
     console.log("Todos os lados")
     break

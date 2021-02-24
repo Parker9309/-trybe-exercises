@@ -1,4 +1,4 @@
-let Chess = 'Bispo'
+let Chess = Bispo
 
 switch (Chess) {
     case 'Rainha':
@@ -17,6 +17,6 @@ switch (Chess) {
     console.log('Se move em L')
     break
     case 'Pião' :
-    console.log('Apenas para frente')
+    console.log(Todos os lados menos diagonal)
     break
 }

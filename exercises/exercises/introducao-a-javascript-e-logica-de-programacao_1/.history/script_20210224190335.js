@@ -1,6 +1,6 @@
 let Chess = 'Bispo'
 
-switch (Chess) {
+switch (Chess .toLowerCase()) {
     case 'Rainha':
     console.log("Todos os lados")
     break
