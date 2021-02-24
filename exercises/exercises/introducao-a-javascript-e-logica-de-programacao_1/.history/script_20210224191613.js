@@ -8,8 +8,8 @@ if (acerto >= '90%') {
     console.log('C')
  }  else if (acerto >= '60%') {
     console.log('D')   
- }  else if (acerto >= '50%') {
+ }  else if (acerto >= 50%) {
     console.log('E')
- }  else if (acerto < '50%')  {
+ }  else if (acerto < 50%)  {
     console.log('F')
  }      
