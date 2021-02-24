@@ -4,8 +4,10 @@ let c = 90
 
 if ( a + b + c == 180) {
     console.log ("True")
+} else if (a < 0) {
+    console.log ("Negative") 
 } else {
-    console.log ("False")
+    console.log ("zero")
 }
   
 
