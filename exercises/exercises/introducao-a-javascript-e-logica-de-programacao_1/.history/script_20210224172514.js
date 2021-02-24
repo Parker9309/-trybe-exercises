@@ -7,7 +7,7 @@ if (b > a && b > c) {
 } else if (a > b && a > c) {
     console.log (a) 
 } else {
-    console.log (c)
+    console.l
 }
   
 

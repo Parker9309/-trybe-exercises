@@ -4,11 +4,6 @@ let c = 40
 
 if (b > a && b > c) {
     console.log (b)
-} else if (a > b && a > c) {
+} else if (a)
     console.log (a) 
-} else {
-    console.log (c)
-}
-  
-
 
