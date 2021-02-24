@@ -3,9 +3,9 @@ let a = -10
 if ( a > 0) {
     console.log ("positive")
 } else if (a < 0) {
-    console.log ("Negative") 
+    console.log () 
 } else {
-    console.log ("zero")
+    console.log (c)
 }
   
 

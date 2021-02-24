@@ -5,7 +5,7 @@ if ( a > 0) {
 } else if (a < 0) {
     console.log ("Negative") 
 } else {
-    console.log ("zero")
+    console.log (c)
 }
   
 
