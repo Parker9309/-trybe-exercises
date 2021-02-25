@@ -8,11 +8,11 @@ switch (true) {
     inss = salario - (salario * 0.08)
     break
 
-    case (salario >= 1556.95 && salario <= 2594.92) :
+    case (salario >= 1556.94) :
     inss = salario - (salario * 0.09)
     break
     
-    case (salario >= 2594.93 && salario <= 5189.82) :
+    case (salario >= 2594.93) :
     inss = salario - (salario * 0.11)
     break
     
@@ -26,15 +26,15 @@ switch (true) {
         ir = 0
         break
 
-    case (inss >= 1903.99 && inss <= 2826.65) :
+    case (inss >= 19) :
         ir = (inss * 0.075) - 142.80
         break
 
-    case (inss >= 2826.66 && inss <= 3751.05) :
+    case (inss >= 3751.05) :
         ir = (inss * 0.15) - 354.80
         break
 
-    case (inss >= 3751.06 && inss <= 4664.68) :
+    case (inss >= 4664.68) :
         ir = (inss * 0.225) - 636.13
         break
 

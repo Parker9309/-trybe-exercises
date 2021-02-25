@@ -30,11 +30,11 @@ switch (true) {
         ir = (inss * 0.075) - 142.80
         break
 
-    case (inss >= 2826.66 && inss <= 3751.05) :
+    case (inss >= 2826.65) :
         ir = (inss * 0.15) - 354.80
         break
 
-    case (inss >= 3751.06 && inss <= 4664.68) :
+    case (inss >= 4664.68) :
         ir = (inss * 0.225) - 636.13
         break
 
