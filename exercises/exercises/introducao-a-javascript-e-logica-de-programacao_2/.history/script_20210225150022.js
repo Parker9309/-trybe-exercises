@@ -4,7 +4,7 @@ let media = 0
 
 for (let i =0; i < numbers.length; i++) {
     soma += numbers[i]
-    media = soma / numbers.length
+    media = soma / numbers.le
 }
 
-console.log(media)
+console.log(soma)
