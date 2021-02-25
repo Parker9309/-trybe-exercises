@@ -1,0 +1,9 @@
+div:hover {
+  border: 10px;
+  color: aquamarine;
+}
+
+div:nth-of-type(1) {
+  
+
+} 

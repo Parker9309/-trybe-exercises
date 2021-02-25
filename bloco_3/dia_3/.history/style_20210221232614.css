@@ -1,0 +1,27 @@
+h3
+
+div:hover {
+  border: 10px;
+  color: aquamarine;
+}
+
+div:nth-of-type(1) {
+  color: green;
+
+} 
+
+div:nth-of-type(2) {
+  color: darkgrey;
+}
+
+div:nth-of-type(3){
+  color: blueviolet;
+}
+
+div:nth-of-type(4){
+  color: black;
+}
+
+div:nth-of-type(5) {
+  color: greenyellow;
+}
