@@ -1,4 +1,4 @@
 let menu = ['Home', 'Serviços', 'Portfólio', 'Links'];
-menu.push ('Contato')
+menu.push
 
 console.log(menu);
