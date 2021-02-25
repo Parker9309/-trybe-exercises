@@ -3,11 +3,11 @@ let iMaior = numbers[0]
 
 
 for (let i =1; i < numbers.length; i++) {
-    if (numbers[i] > iMaior) {
+    if (numbers[i] < iMaior) {
         iMaior = numbers[i]
        
     }
 }
 
-console.log(iMaior)
+console.log(numbers[i])
   
