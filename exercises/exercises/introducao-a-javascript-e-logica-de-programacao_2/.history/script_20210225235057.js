@@ -12,4 +12,3 @@ for (let indeximpar = 0; indeximpar < numbers.length; indeximpar += 1) {
     } else {
         console.log(impar)
     }
-    

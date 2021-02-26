@@ -3,13 +3,7 @@ let impar = 0
 
 for (let indeximpar = 0; indeximpar < numbers.length; indeximpar += 1) {
     if (numbers[indeximpar] %2 == 0) {
-        impar+=1
+        
     }
 
 }
-    if (impar === 0) {
-        console.log ("Não há ímpar")
-    } else {
-        console.log(impar)
-    }
-    

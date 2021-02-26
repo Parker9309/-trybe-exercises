@@ -7,9 +7,4 @@ for (let indeximpar = 0; indeximpar < numbers.length; indeximpar += 1) {
     }
 
 }
-    if (impar === 0) {
-        console.log ("Não há ímpar")
-    } else {
-        console.log(impar)
-    }
-    
+  
