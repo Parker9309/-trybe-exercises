@@ -5,4 +5,4 @@ let info = {
    recorrente: "Sim" 
  };
 
- console.log(info.recorrente)
+ console.log('Bem Vinda,' + ' ' + info.personagem)
