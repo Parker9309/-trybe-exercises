@@ -8,4 +8,4 @@ let player = {
 
   console.log("A jogadora" + ' ' + player.name + ' ' + player.lastName + ' ' + "tem" + ' ' + player.age + ' ' + "de idade")
   console.log ("a jogadora" + ' ' + player.name + ' ' + player.lastName + ' ' + "foi eleita a melhor do mundo 6 vezes")
-  console.log ('A jogadora possui' + ' ' + player.medals.golden + ' ' + 'medalhas de prata' + ' ' + 'e' + ' ' + player.medals.silver + ' ' + 'de prata' )
+  console.log ('Ajogadora possui' + ' ' + player.medals.golden + ' ' + 'medalhas de prata' + ' ' + 'e' + ' ' + player.medals.silver + ' ' + 'de prata' )
