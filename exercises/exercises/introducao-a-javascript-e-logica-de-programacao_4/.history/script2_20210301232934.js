@@ -44,6 +44,4 @@ function maisRepetido(numeros) {
   return contNumero;
 }
 
-console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3]));
-
-// Tirado do gabarito da trybe
+console.log(maisRepetido([2, 3, 2, 5, 8, 2, 3])); //2
