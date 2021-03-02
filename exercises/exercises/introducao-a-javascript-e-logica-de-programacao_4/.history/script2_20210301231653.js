@@ -8,4 +8,4 @@ function indiceDoMenor(numeros) {
   return indiceMenor;
 }
 
-console.log(indiceDoMenor([2, 4, 6, 7, 10, 0, -3]));
+console.log(indiceDoMenor([2, 3, 6, 7, 10, 1]));
