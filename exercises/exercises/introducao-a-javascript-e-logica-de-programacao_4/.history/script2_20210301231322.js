@@ -8,4 +8,4 @@ function indiceDoMaior(numeros) {
   return indiceMaior;
 }
 
-console.log(indiceDoMaior([2, 3, 6, 7, 10, 1]));
+console.log(indiceDoMaior([2, 3, 6, 7, 10, 1])); //4
