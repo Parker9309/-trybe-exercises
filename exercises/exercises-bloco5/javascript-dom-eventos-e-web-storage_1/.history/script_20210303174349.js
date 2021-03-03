@@ -5,4 +5,4 @@ let paragrafos = document.getElementsByTagName('p') [0].innerText = "Homem Aranh
 let colorTrybe = document. getElementsByClassName('main-content') [0].style.backgroundColor = 'rgb(76,164,109)';
   
 //parte 3
-let colorTrybe2 = document. getElementsByClassName('center-content') [0].style.backgroundColor = "white"
+let colorTrybe2 = document. getElementsByClassName('main-content center-content') [2].style.backgroundColor = "white"
