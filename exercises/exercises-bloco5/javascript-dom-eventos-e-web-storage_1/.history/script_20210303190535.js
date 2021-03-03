@@ -15,4 +15,3 @@ let paragrafoUpperCase = document.getElementsByTagName('p') [0].style.textTransf
 
 //parte 6
 let fullContent = document.querySelectorAll('p')
-console.log(fullContent)

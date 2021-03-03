@@ -13,6 +13,4 @@ let correcaoH1 = document.getElementsByTagName('h1') [0].innerText = "Exercício
 //parte 5
 let paragrafoUpperCase = document.getElementsByTagName('p') [0].style.textTransform = 'upperCase'  
 
-//parte 6
-let fullContent = document.querySelectorAll('p')
-console.log(fullContent)
+
