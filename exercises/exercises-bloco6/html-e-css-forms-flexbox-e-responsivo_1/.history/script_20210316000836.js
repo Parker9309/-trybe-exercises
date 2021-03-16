@@ -5,7 +5,7 @@ function criarOpcoes() {
   for (let stateIndex = 0; stateIndex < estadosBr.length; stateIndex += 1) {
     let opcao = document.createElement('option');
     opcao.value = estadosBr[stateIndex].toLowerCase();
-    opcao.id = 'estados';
+    opcao.id = 'estadosBr';
     opcao.innerHTML = estadosBr[stateIndex];
     opcoes.appendChild(opcao);
   }

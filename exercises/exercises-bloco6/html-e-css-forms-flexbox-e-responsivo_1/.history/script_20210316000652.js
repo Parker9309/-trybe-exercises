@@ -4,8 +4,8 @@ function criarOpcoes() {
   'ES', 'GO', 'MA', 'MT', 'MS', 'MG', 'PA', 'PB', 'PR','PE', 'PI', 'RJ', 'RN', 'RS', 'RO', 'RR', 'SC', 'SP', 'SE', 'TO'];
   for (let stateIndex = 0; stateIndex < estadosBr.length; stateIndex += 1) {
     let opcao = document.createElement('option');
-    opcao.value = estadosBr[stateIndex].toLowerCase();
-    opcao.id = 'estados';
+    opcao.value = estados[stateIndex].toLowerCase();
+    opcao.id = 'estadosBr';
     opcao.innerHTML = estadosBr[stateIndex];
     opcoes.appendChild(opcao);
   }
