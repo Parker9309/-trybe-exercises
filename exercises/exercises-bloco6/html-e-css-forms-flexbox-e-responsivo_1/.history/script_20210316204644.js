@@ -11,10 +11,6 @@ function criarOpcoes() {
   }
 }
 criarOpcoes()
-let submitButton = document.getElementById('submit');
-let inputAll = document.querySelectorAll('input');
-let curriculumContainer = document.getElementById('curriculum');
-let clearButton = document.getElementById('clear');
 
 submitButton.addEventListener('click', function(event) {
   event.preventDefault();

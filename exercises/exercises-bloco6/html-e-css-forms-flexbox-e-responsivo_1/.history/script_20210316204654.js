@@ -11,7 +11,7 @@ function criarOpcoes() {
   }
 }
 criarOpcoes()
-let submitButton = document.getElementById('submit');
+et submitButton = document.getElementById('submit');
 let inputAll = document.querySelectorAll('input');
 let curriculumContainer = document.getElementById('curriculum');
 let clearButton = document.getElementById('clear');
