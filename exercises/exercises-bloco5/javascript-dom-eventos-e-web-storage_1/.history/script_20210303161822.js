@@ -1,0 +1,1 @@
+var paragrafos = document.getElementsByTagName('p') [0]
