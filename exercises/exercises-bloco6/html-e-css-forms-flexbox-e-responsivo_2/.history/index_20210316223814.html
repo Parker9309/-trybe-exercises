@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/pikaday.css">
   <title>Document</title>
 </head>
 <body style="background-color: gray;">
@@ -13,82 +12,81 @@
   <form>
     <div id="form-group">
     <fieldset>
-      <div class="form-group">
+      <legend>
         <label form="nome"> Nome completo 
-          <input class="form-control" type = "text" name="nome" id="nome" maxlength="40" placeholder="digite seu nome" required>
+          <input class="form-control type = "text" name="nome" id="nome" maxlength="40" required>
         </label>
-      </div>
-    </div>
+      </legend>
 
   <br>
 
-    <div class="form-group">
+    <legend>
       <label form="mail"> Email 
-        <input class="form-control" type = "text" name="nome" id="mail" maxlength="50"  placeholder="digite seu Email" required>
+        <input class="form-control type = "text" name="nome" id="mail" maxlength="50" required>
       </label>
-    </div>
+    </legend>
  
   <br>
 
-    <div>
+    <>
       <label form="cpf"> CPF
-        <input class="form-control" type = "text" name="nome" id="cpf" maxlength="11" placeholder="digite seu CPF" required>
+        <input class="form-control type = "text" name="nome" id="cpf" maxlength="11" required>
       </label>
-    </div>
+    </legend>
 
 <br>
 
   <div>
     <label form="nome"> Endereço 
-      <input class="form-control" type = "text" name="nome" id="endereço" maxlength="200" placeholder="digite seu endereço" required>
+      <input class="form-control type = "text" name="nome" id="endereço" maxlength="200" required>
     </label>
-  </div>
-
-<br>
-
   <div>
+
+<br>
+
+  <legend>
     <label form="nome"> Cidade 
-      <input class="form-control" type = "text" name="nome" id="city" maxlength="28" placeholder="Digite aqui sua cidade" required>
+      <input class="form-control type = "text" name="nome" id="city" maxlength="28" required>
     </label>
   </div>
 
 <br>
 
-  <div class="form-group">
+  <legend>
     <label form="nome"> Estado 
       <select name="nome" id="estados" required>
     </label>
-  </div>
+  </legend>
 
 <br>
 
-  <div class="form-group">
+  <legend>
     <label form="nome"> Estado 
       <select name="nome" id="estados" required>
     </label>
-  </div>
+  </legend>
 
 <br>
 
-  <div class="form-group">
+  <legend>
       <label form="nome">Casa</label>
       <input class="form-check" type="radio" name="nome" id="Moradia" required>
       <label form="nome">Apartamento</label>
       <input class="form-check" type="radio" name="nome" id="Moradia" required>
-  </div>
+  </legend>
 </fieldset>
 <br>
 <fieldset>
-  <div class="form-group">Curriculum</div>
+  <legend>Curriculum</legend>
   <label for="fname">Resumo do Curriculum</label>
   <textarea type="text"id="fname" name="fname" ows="15" cols="33" maxlength="2000" placeholder="Conte me sobre seu Curriculum" required>
    </textarea><br><br>
   <label for="lname">Cargo:</label>
-  <input class="form-control" type="text" id="cargo" name="cargo" maxlength="40" placeholder="coloque aqui o seu cargo" required><br><br>
+  <input class="form-control type="text" id="cargo" name="cargo" maxlength="40" required><br><br>
   <label for="descricaoC">Descrição de Cargo:</label>
-  <input class="form-control" type="text" id="descricaoC" name="descricaoC" maxlength="500" placeholder="descreva seu cargo" required><br><br>
-  <label for="datepicker">Data de Inicio:</label>
-  <input class="form-control" type="date" id="datepicker" name="dateBegin" required><br><br>
+  <input class="form-control type="text" id="descricaoC" name="descricaoC" maxlength="500" required><br><br>
+  <label for="dateBegin">Data de Inicio:</label>
+  <input class="form-control type="date" id="dateBegin" name="dateBegin" required><br><br>
   <div id="buttons-container">
     <button class="btn btn-success" type="submit" id="submit">Enviar</button>
     <button class="btn btn-danger" type="reset" id="clear">Limpar</button>
@@ -96,5 +94,6 @@
 </fieldset>
 </div>
 </form>
+<script src = "script.js"></script>
 </body>
 </html>
