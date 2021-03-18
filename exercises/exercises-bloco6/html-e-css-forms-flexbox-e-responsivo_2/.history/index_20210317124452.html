@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/pikaday.css">
+  <script src="./path/to/just-validate.min.js"></script>
+  <title>Document</title>
+</head>
+<body style="background-color: gray;">
+  <h1>Form</h1>
+  <form me>
+    <div id="form-group">
+    <fieldset>
+      <div class="form-group">
+        <label form="nome"> Nome completo 
+          <input class="form-control" type="text" class="form__input form-control js-validate-error-field" placeholder="Enter your name" autocomplete="off" data-validate-field="name" name="name" id="name" style="border: 1px solid rgb(184, 17, 17); color: rgb(184, 17, 17);">
+        </label>
+      </div>
+    </div>
+
+  <br>
+
+    <div class="form-group">
+      <label form="mail"> Email 
+        <input class="form-control" type = "text" name="nome" id="mail" date-validate-field = "email" placeholder="digite seu Email" required>
+      </label>
+    </div>
+ 
+  <br>
+
+    <div>
+      <label form="cpf"> CPF
+        <input class="form-control" type = "text" name="nome" id="cpf" date-validate-field = "text"placeholder="digite seu CPF" required>
+      </label>
+    </div>
+
+<br>
+
+  <div>
+    <label form="nome"> Endereço 
+      <input class="form-control" type = "text" name="nome" id="endereço" maxlength="200" placeholder="digite seu endereço" required>
+    </label>
+  </div>
+
+<br>
+
+  <div>
+    <label form="nome"> Cidade 
+      <input class="form-control" type = "text" name="nome" id="city" maxlength="28" placeholder="Digite aqui sua cidade" required>
+    </label>
+  </div>
+
+<br>
+
+  <div class="form-group">
+    <label form="nome"> Estado 
+      <select name="nome" id="estados" required>
+    </label>
+  </div>
+
+<br>
+
+  <div class="form-group">
+    <label form="nome"> Estado 
+      <select name="nome" id="estados" required>
+    </label>
+  </div>
+
+<br>
+
+  <div class="form-group">
+      <label form="nome">Casa</label>
+      <input class="form-check" type="radio" name="nome" id="Moradia" required>
+      <label form="nome">Apartamento</label>
+      <input class="form-check" type="radio" name="nome" id="Moradia" required>
+  </div>
+</fieldset>
+<br>
+<fieldset>
+  <div class="form-group">Curriculum</div>
+  <label for="fname">Resumo do Curriculum</label>
+  <textarea type="text"id="fname" name="fname" date-validate-field = "textarea" placeholder="Conte me sobre seu Curriculum" required>
+   </textarea><br><br>
+  <label for="lname">Cargo:</label>
+  <input class="form-control" type="text" id="cargo" name="cargo" date-validate-field = "text" placeholder="coloque aqui o seu cargo" required><br><br>
+  <label for="descricaoC">Descrição de Cargo:</label>
+  <input class="form-control" type="text" id="descricaoC" name="descricaoC" date-validate-field = "text" placeholder="descreva seu cargo" required><br><br>
+  <label for="datepicker">Data de Inicio:</label>
+  <input class="form-control" type="date" id="datepicker" date-validate-field = "date" name="dateBegin" required><br><br>
+  <div id="buttons-container">
+    <button class="btn btn-success" type="submit" id="submit">Enviar</button>
+    <button class="btn btn-danger" type="reset" id="clear">Limpar</button>
+  </div>
+</fieldset>
+</div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
