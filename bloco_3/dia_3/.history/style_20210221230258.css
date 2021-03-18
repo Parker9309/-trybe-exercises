@@ -1,0 +1,15 @@
+h1, p {
+  text-align: center;
+}
+
+ol {
+  font-family: sans-serif;
+}
+
+li:hover {
+  background-color: cornflowerblue;
+}
+
+li:active {
+  font-family: Arial;
+}
