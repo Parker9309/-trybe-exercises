@@ -18,7 +18,6 @@ body {
   display: flex;
   justify-content: center;
   width: 268px;
-  order: 1;
 }
 
 .menu-container {
@@ -40,4 +39,3 @@ body {
   list-style: none;
   margin-right: 10px;
 }
-
