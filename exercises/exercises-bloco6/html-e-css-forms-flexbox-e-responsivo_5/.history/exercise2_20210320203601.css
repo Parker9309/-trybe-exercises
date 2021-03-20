@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  font-size: x-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  margin: 2px;
+}
+
+@media screen and  (min-width:767px) {
+  .container {
+    background-color: aqua;
+  }
+}
