@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+
+}
+
+h1 {
+  font-size: medium;
+
+}
+
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+  width: 300px;
+  margin: 10;
+  padding: 10px 0;
+}
+
+@media screen and (max-widht: 375px) {
+  .body {
+    background-color: red; 
+ }
+}

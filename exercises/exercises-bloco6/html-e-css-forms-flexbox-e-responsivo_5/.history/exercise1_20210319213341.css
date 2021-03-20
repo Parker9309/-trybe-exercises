@@ -39,7 +39,7 @@ p {
   font-size: x-large;
 }
 
-@media screen and (min-width:770px) {
+@media screen and (min-width:800px) {
   body {
     background-color: chocolate;
   }
@@ -57,20 +57,14 @@ p {
   h2 {
     font-size: 50px;
     text-align: center;
-  }
+    }
 
-  figcaption {
-    font-size: 35px;
-  }
-
-  img {
-    width: 50%;
-  }
-  
-
-
-
-    
+    figure {
+      margin: 10;
+      padding: 10px 0;
+      text-align: center;
+      font-size: 30px;
+    }
   
   
 
