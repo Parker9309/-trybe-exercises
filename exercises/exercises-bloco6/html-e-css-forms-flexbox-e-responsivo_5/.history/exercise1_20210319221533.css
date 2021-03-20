@@ -15,7 +15,7 @@ text-align: center;
 }
 
 img {
-  width: 80%;
+  width: 70%;
 }
 
 .img-center {
@@ -75,16 +75,16 @@ p {
 
   p {
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
   }
 
@@ -93,6 +93,6 @@ p {
   }
 
   img {
-    width: 30%;
+    width: 50%;
   }
 }
