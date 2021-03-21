@@ -23,11 +23,11 @@ h2 {
 }
 
 li {
-  font-size: 23px;
+  font-size: 28px;
 }
 
 p {
-  font-size: 25px;
+  font-size: x-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 5px;
 }
@@ -39,11 +39,6 @@ li {
 footer p {
   font-size: medium;
 }
-
-aside h2 {
-  font-size: 25px;
-}
-
 
 @media screen and  (min-width:376px) {
   .container {
@@ -80,10 +75,6 @@ aside h2 {
   footer p {
     font-size: medium;
   }
-  aside h2 {
-    font-size: 28px;
-  }
-  
   
 }
 
@@ -124,7 +115,7 @@ aside h2 {
   }
 
   aside h2 {
-    font-size: 30px;
+    font-size: large;
   }
   
 }  

@@ -10,7 +10,7 @@ html {
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  background-color: gray;
+  background-color: aquamarine;
   margin: 5px;
 }
 
@@ -23,11 +23,11 @@ h2 {
 }
 
 li {
-  font-size: 23px;
+  font-size: 28px;
 }
 
 p {
-  font-size: 25px;
+  font-size: x-large;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 5px;
 }
@@ -40,18 +40,13 @@ footer p {
   font-size: medium;
 }
 
-aside h2 {
-  font-size: 25px;
-}
-
-
 @media screen and  (min-width:376px) {
   .container {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    background-color: aquamarine;
+    background-color: aqua;
     margin: 5px;
   }
 
@@ -80,20 +75,16 @@ aside h2 {
   footer p {
     font-size: medium;
   }
-  aside h2 {
-    font-size: 28px;
-  }
-  
   
 }
 
-@media screen and  (min-width:1024px) {
+@media screen and  (min-width:789px) {
   .container {
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    background-color:aqua;
+    background-color:blue;
     margin: 5px;
   }
 
@@ -106,7 +97,7 @@ aside h2 {
   }
   
   li {
-    font-size: 30px;
+    font-size: 27px;
   }
   
   p {
@@ -121,10 +112,6 @@ aside h2 {
 
   footer p {
     font-size: medium;
-  }
-
-  aside h2 {
-    font-size: 30px;
   }
   
 }  
