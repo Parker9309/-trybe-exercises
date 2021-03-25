@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+p {
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li {
+  margin: 2px 0 ;
+}

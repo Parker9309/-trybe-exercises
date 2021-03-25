@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+  background-color: aquamarine;
+}
+
+li {
+  margin: 2px 0 ;
+}

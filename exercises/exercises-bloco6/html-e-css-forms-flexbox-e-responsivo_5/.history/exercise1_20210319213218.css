@@ -1,0 +1,59 @@
+body {
+  margin: 10px;
+  background-color: aquamarine;
+
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+h2 {
+font-size: xx-large;
+text-align: center;
+}
+
+img {
+  width: 70%;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin: 10;
+  padding: 10px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-size: x-large;
+}
+
+p {
+  text-align: center;
+  font-size: x-large;
+}
+
+@media screen and (min-width:800px) {
+  body {
+    background-color: chocolate;
+  }
+
+  p {
+    text-align: center;
+    font-size: xx-large;
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  
+
+}
