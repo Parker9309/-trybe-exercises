@@ -59,4 +59,4 @@ const verifyPair = (obj, key, value) => {
   }
   return isEqual;
 };
-console.log(verifyPair(lesson2,'professor','Carlos')); //requisito também tirado do gabarito
+console.log(verifyPair(lesson2,'professor','Carlos'));
